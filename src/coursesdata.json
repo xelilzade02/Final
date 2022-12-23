@@ -1,0 +1,74 @@
+ [
+   {
+      "id": 1,
+      "image": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1655931234/Images/images/courses/course-8_j5y9cb.jpg",
+      "imgTeacher":"https://res.cloudinary.com/dp9ksc7yx/image/upload/v1656150049/Images/images/teachers/teacher-6_ky6rqv.jpg",
+      "name": "Anar ",
+      "price": "109.99AZN",
+      "text": "Natiqlik kursu"
+   },
+   {
+      "id": 2,
+      "image": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1655931234/Images/images/courses/course-9_ijx7zf.jpg",
+      "imgTeacher":"https://res.cloudinary.com/dp9ksc7yx/image/upload/v1656150050/Images/images/teachers/teacher-8_dol3ez.jpg",
+      "name": "Amin ",
+      "price": "49.99AZN",
+      "text": "Mühasibatlıq"
+   },
+   {
+      "id": 3,
+      "image": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1655931234/Images/images/courses/course-3_plfxea.jpg",
+      "imgTeacher": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1656150050/Images/images/teachers/teacher-3_aa4zob.jpg",
+      "name": "Kəmalə ",
+      "price": "39.99AZN",
+      "text": "Maliyyə"
+   },
+   {
+      "id": 4,
+      "image": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1655931234/Images/images/courses/course-7_jmhqhp.jpg",
+      "imgTeacher": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1656150049/Images/images/teachers/teacher-9_rgbfhq.jpg",
+      "name": "Adilə ",
+      "price": "75.99AZN",
+      "text": "Rəssamlıq kursu"
+   },
+   {
+      "id": 5,
+      "image": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1655931233/Images/images/courses/course-5_tqqguy.jpg",
+      "imgTeacher": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1656150050/Images/images/teachers/teacher-2_oh5kcz.jpg",
+      "name": "Emil ",
+      "price": "37.99AZN",
+      "text": "Software development"
+   },
+   {
+      "id": 6,
+      "image": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1655931233/Images/images/courses/course-4_lr4kwl.jpg",
+      "imgTeacher": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1656150049/Images/images/teachers/teacher-7_touewt.jpg",
+      "name": "Lara ",
+      "price": "63.99AZN",
+      "text": "ux-ui designer "
+   },
+   {
+      "id": 7,
+      "image": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1655931233/Images/images/courses/course-6_phie7z.jpg",
+      "imgTeacher": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1656150050/Images/images/teachers/teacher-1_ky2r2c.jpg",
+      "name": "Camal",
+      "price": "99.99AZN",
+      "text": "Satış Təmsilçisi"
+   },
+   {
+      "id": 8,
+      "image": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1655931233/Images/images/courses/course-2_afqeq8.jpg",
+      "imgTeacher": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1656150049/Images/images/teachers/teacher-4_lmeivq.webp",
+      "name": "Kamilə ",
+      "price": "49.99AZN",
+      "text": "İdarəçilik üzrə mentor"
+   },
+   {
+      "id": 9,
+      "image": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1655931233/Images/images/courses/course-1_oyq6yb.jpg",
+      "imgTeacher": "https://res.cloudinary.com/dp9ksc7yx/image/upload/v1656150049/Images/images/teachers/teacher-5_nohkk3.jpg",
+      "name": "Emin H",
+      "price": "77.99AZN",
+      "text": "Software development"
+   }
+]  
