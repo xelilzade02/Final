@@ -1,28 +1,32 @@
 import React from 'react'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import showResults from "../components/Redux/showResults";
+import SimpleForm from "../components/Redux/SimpleForm";
+import { Provider } from "react-redux";
+import store from "../components/Redux/store"
 
 const ContactForm = () => {
    
 
-   const form = useRef();
+   // const form = useRef();
    
-   const serviceID = 'service_s4ucuqc'
-   const templateID = 'template_qcdagjc'
-   const userId = 'y1P9ZzfYr0cjWil4R'
+   // const serviceID = 'service_s4ucuqc'
+   // const templateID = 'template_qcdagjc'
+   // const userId = 'y1P9ZzfYr0cjWil4R'
    
-   const sendEmail = (e) => {
-      e.preventDefault();
+   // const sendEmail = (e) => {
+   //    e.preventDefault();
      
-         emailjs.sendForm(serviceID, templateID, form.current, userId)
-           .then((result) => {
-               console.log(result.text);
-           }, (error) => {
-               console.log(error.text);
-           });
+   //       emailjs.sendForm(serviceID, templateID, form.current, userId)
+   //         .then((result) => {
+   //             console.log(result.text);
+   //         }, (error) => {
+   //             console.log(error.text);
+   //         });
       
-         form.current.reset()
-   };
+   //       form.current.reset()
+   // };
 
   return (
     <section className="contact-form__content">
@@ -46,7 +50,7 @@ const ContactForm = () => {
                </div>
             </div>
             <div className="col-md-6">
-               <div className="contact-form__message message">
+               {/* <div className="contact-form__message message">
                   <div className="message__heading">
                      <h4>Əlaqə</h4>
                   </div>
@@ -69,7 +73,14 @@ const ContactForm = () => {
                      </form>
                      
                   </div>
-               </div>
+               </div> */}
+               <Provider store={store}>
+                  <div style={{ padding: 15 }}>
+
+                     <SimpleForm onSubmit={showResults} />
+
+                  </div>
+               </Provider>
             </div>
          </div>
       </div>
